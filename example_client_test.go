@@ -6,7 +6,7 @@ import (
 
 	"golang.org/x/crypto/ssh"
 
-	"dev.justinjudd.org/justin/easyssh"
+	"github.com/maxhawkins/easyssh"
 )
 
 func ExampleDial() {

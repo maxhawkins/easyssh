@@ -1,12 +1,14 @@
 # easyssh
 
-[![GoDoc](https://godoc.org/dev.justinjudd.org/justin/easyssh?status.svg)](https://godoc.org/dev.justinjudd.org/justin/easyssh)
+[![GoDoc](https://godoc.org/github.com/maxhawkins/easyssh?status.svg)](https://godoc.org/github.com/maxhawkins/easyssh)
 
 easyssh provides a simple wrapper around the standard SSH library. Designed to be like net/http but for ssh.
 
+(Github fork of [justin/easyssh](https://dev.justinjudd.org/justin/easyssh))
+
 ## Install
 
-    go get dev.justinjudd.org/justin/easyssh
+    go get github.com/maxhawkins/easyssh
 
 ## Usage
 
@@ -20,7 +22,7 @@ import (
 	"io/ioutil"
 	"log"
 
-	"dev.justinjudd.org/justin/easyssh"
+	"github.com/maxhawkins/easyssh"
 
 	"golang.org/x/crypto/ssh"
 )
@@ -66,7 +68,7 @@ package main
 import (
 	"log"
 
-	"dev.justinjudd.org/justin/easyssh"
+	"github.com/maxhawkins/easyssh"
 	"golang.org/x/crypto/ssh"
 )
 

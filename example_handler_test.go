@@ -1,7 +1,7 @@
 package easyssh_test
 
 import (
-	"dev.justinjudd.org/justin/easyssh"
+	"github.com/maxhawkins/easyssh"
 
 	"golang.org/x/crypto/ssh"
 )
