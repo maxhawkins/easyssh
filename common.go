@@ -212,6 +212,7 @@ func (s *GlobalMultipleRequestsMux) HandleRequests(reqs <-chan *ssh.Request, ssh
 		handler, ok := s.requests[t]
 		if !ok {
 			DiscardRequest(req)
+			continue
 		}
 
 		s.requestMutex.RUnlock()
