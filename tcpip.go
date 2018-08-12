@@ -104,7 +104,7 @@ func TCPIPForwardRequest(req *ssh.Request, sshConn ssh.Conn) {
 						logger.Println("Open forwarded Channel: ", err.Error())
 						return
 					}
-					ssh.DiscardRequests(reqs)
+					go ssh.DiscardRequests(reqs)
 					go func(ch ssh.Channel, conn net.Conn) {
 
 						close := func() {
